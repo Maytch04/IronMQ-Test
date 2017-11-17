@@ -10,13 +10,15 @@ var imq = new iron_mq.Client();
     'message_expiration': 24 * 3600,
 };*/
 
-var queue_name = "Myne";
+var queue_name = "Test1";
 
 //imq.create_queue(queue_name, options, function(error, body) {});
 
 var queue = imq.queue(queue_name);
 
 // posting single message
-queue.post("Why wont u work", function(error, body) {});
-console.log( "message" );
-queue.reserve({"n":10}, function(error, body) {});
+queue.post(["Work Work Work Work Work", "Just once"], function(error, body) {
+
+});
+console.log( "This was ran" );
+// queue.reserve({"n":10}, function(error, body) {});
