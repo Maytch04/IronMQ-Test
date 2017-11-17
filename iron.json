@@ -1,6 +1,6 @@
 {
     "token":"A4O0dceoRBYkJg9Up3By",
     "project_id":"59cec8736717970009ed113a",
-    "host":"mq-aws-eu-west-1-1.iron.io"
+    "iron_mq":"mq-aws-eu-west-1-1.iron.io"
 
 } 
